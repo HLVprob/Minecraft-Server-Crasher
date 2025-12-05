@@ -1,0 +1,26 @@
+{
+    "name": "mc-bot-flooder",
+    "version": "1.0.0",
+    "description": "High-speed Minecraft bot flooder for server stress testing",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": "node index.js --test"
+    },
+    "keywords": [
+        "minecraft",
+        "bot",
+        "flooder",
+        "stress-test"
+    ],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "@xboxreplay/xboxlive-auth": "^5.1.0",
+        "axios": "^1.13.2",
+        "chalk": "^4.1.2",
+        "minecraft-protocol": "^1.62.0",
+        "mineflayer": "^4.0.0",
+        "prismarine-auth": "^2.7.0"
+    }
+}

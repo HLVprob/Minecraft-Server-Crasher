@@ -1,0 +1,25 @@
+{
+    "server": {
+        "host": "localhost",
+        "port": 25565,
+        "version": "1.20.1"
+    },
+    "bots": {
+        "count": 300,
+        "batchSize": 50,
+        "batchDelay": 100,
+        "joinDelay": 0,
+        "reconnectOnKick": false
+    },
+    "names": {
+        "useRandomNames": true,
+        "prefix": "Bot_",
+        "customNames": []
+    },
+    "display": {
+        "showJoinMessages": true,
+        "showKickMessages": true,
+        "showStats": true,
+        "updateInterval": 500
+    }
+}
